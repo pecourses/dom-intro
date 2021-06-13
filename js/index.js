@@ -107,3 +107,10 @@ const h2 = document.querySelector('h2');
 h2.classList.add('myClass');
 const main = document.querySelector('main.myClass');
 main.classList.remove('myClass');
+
+const [firstP, secondP, thirdP] = document.querySelectorAll('p');
+firstP.classList.add('myClass');
+secondP.remove();
+thirdP.style.fontSize = '36px';
+const h1 = document.querySelector('h1');
+h1.style.visibility = 'hidden';
